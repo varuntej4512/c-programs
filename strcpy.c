@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	char s1[20],s2[20];
+	printf("enter string1 name");
+	scanf("%d",&s1);
+	strcpy(s2,s1);
+	printf("original =%s",s1);
+	printf("\n copied string=%s",s2);
+	return 0
+}
